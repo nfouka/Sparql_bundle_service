@@ -1,0 +1,3 @@
+mi2sservice_sparql_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: "mi2sserviceSparqlBundle:ServiceQuery:index" }

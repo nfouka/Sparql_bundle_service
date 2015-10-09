@@ -1,0 +1,25 @@
+{
+    "name": "mi2s/sparql_bundle_service_for_symfony2",
+    "description": "Some service to execute the query sparql jena via a server, and librarian library EasyRdf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadir Fouka",
+            "email": "nadir.fouka@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0",	
+		"apache/log4php": "^2.3",
+		"guzzle/http" : "^3.9",
+		"easyrdf/easyrdf" : "^0.9.1",
+		"symfony/process" : "^2.7"
+	
+	},
+ 	"autoload": {
+        "psr-0": {
+            "serviceSparqlBundle": "src/"
+        }
+    }
+}

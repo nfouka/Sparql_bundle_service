@@ -1,0 +1,19 @@
+services:
+  sparql_service.executeQuery:
+          class: mi2s\serviceSparqlBundle\Controller\ServiceQueryController
+          arguments: 
+            - 1 # total
+            - 2 # per page
+            - 3 # current page
+            
+  sparql_service.putFileOnServer:
+          class: mi2s\serviceSparqlBundle\Controller\ServiceQueryController
+          arguments: 
+            - 1 # file
+            
+  sparql_service.logger4log:
+          class: mi2s\serviceSparqlBundle\Controller\ServiceQueryController
+          arguments: 
+            - 1 # path_logger
+            - 2 # label
+            - 3 # msg

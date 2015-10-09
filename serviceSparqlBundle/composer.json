@@ -1,0 +1,8 @@
+{
+    "require": {
+        "apache/log4php": "^2.3",
+        "guzzle/http": "^3.9",
+        "easyrdf/easyrdf": "^0.9.1",
+        "symfony/process": "^2.7"
+    }
+}
